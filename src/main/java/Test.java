@@ -1,4 +1,5 @@
 import java.text.SimpleDateFormat;
+import java.util.logging.Level;
 
 
 
@@ -43,6 +44,8 @@ public class Test {
 //		System.out.println("hello end.");
 
 		System.out.println("hi");
+		java.util.logging.Logger l = java.util.logging.Logger.getLogger("xxx");
+		l.log(Level.INFO, "nice");
 	}
 	
 }
