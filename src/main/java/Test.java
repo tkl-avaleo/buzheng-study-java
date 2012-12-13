@@ -6,10 +6,6 @@ import java.util.Set;
 
 public class Test {	
 	public static void main(String[] args) throws Exception {
-		List<String> names = new ArrayList<String>();
-		Iterator<String> iterator1 = names.iterator();
-		
-		Set<String> ns = new HashSet<String>();
-		Iterator<String> iterator2 = ns.iterator();
+		System.out.println("just a string");
 	}	
 }
