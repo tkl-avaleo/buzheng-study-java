@@ -3,4 +3,11 @@
   <groupId>org.buzheng.study</groupId>
   <artifactId>buzheng-study-java</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.mongodb</groupId>
+  		<artifactId>mongo-java-driver</artifactId>
+  		<version>2.10.1</version>
+  	</dependency>
+  </dependencies>
 </project>
