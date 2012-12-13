@@ -6,6 +6,6 @@ import java.util.Set;
 
 public class Test {	
 	public static void main(String[] args) throws Exception {
-		System.out.println("just a string");
+		System.out.println("just a string, here.");
 	}	
 }
