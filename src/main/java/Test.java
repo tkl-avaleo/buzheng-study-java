@@ -1,51 +1,15 @@
-import java.text.SimpleDateFormat;
-import java.util.logging.Level;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
 
-
-
-
-public class Test {
-	
+public class Test {	
 	public static void main(String[] args) throws Exception {
+		List<String> names = new ArrayList<String>();
+		Iterator<String> iterator1 = names.iterator();
 		
-//		Thread t1 = new Thread(new Runnable() {
-//			public void run() {
-//				System.out.println("thread 1 .....");
-//				try {
-//					Thread.sleep(2000);
-//				} catch (InterruptedException e) {
-//					e.printStackTrace();
-//				}
-//				System.out.println("thread 1 .....");
-//			}
-//			
-//		});
-//		
-//		
-//		Thread t2 = new Thread(new Runnable() {
-//			public void run() {
-//				System.out.println("thread 2 .....");
-//				try {
-//					Thread.sleep(1000);
-//				} catch (InterruptedException e) {
-//					e.printStackTrace();
-//				}
-//				System.out.println("thread 2 .....");
-//			}
-//			
-//		});		
-//
-//		t1.start();
-//		t1.join();
-//		
-//		t2.start();
-//		t2.join();
-//		
-//		System.out.println("hello end.");
-
-		System.out.println("hi");
-		java.util.logging.Logger l = java.util.logging.Logger.getLogger("xxx");
-		l.log(Level.INFO, "nice");
-	}
-	
+		Set<String> ns = new HashSet<String>();
+		Iterator<String> iterator2 = ns.iterator();
+	}	
 }
