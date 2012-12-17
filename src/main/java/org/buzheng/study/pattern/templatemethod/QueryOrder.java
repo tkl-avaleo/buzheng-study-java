@@ -8,9 +8,15 @@ public abstract class QueryOrder {
 	}
 	
 	private Order getOrderInfo(String orderId) {
-		return new Order();
+		
+		Order order = new Order();
+		order.setOrderId("123456");
+		order.setAmount(1000.0);
+		
+		return order;
 	}
 	
+	// 只留给子类来实现
 	protected abstract String formatOrderInfo(Order order);
 	
 }
