@@ -8,5 +8,8 @@
  * 1、抽象的部分，抽象有很多存在形式。比如不同形状等。
  * 2、实现的部分，实现有很多不同的方式。比如不同平台、不同驱动等。
  * 
+ * 据说JDBC是Bridge模式的一个应用，但是目前还没搞清楚。JDBC中
+ * 实现部分是Driver，但是抽象部分还不确定。
+ * 
  */
 package org.buzheng.study.pattern.bridge;
