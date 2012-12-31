@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd  
+           http://www.springframework.org/schema/context  
+           http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<bean name="quartzScheduler"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<!--property name="dataSource"> <ref bean="dataSource" /> </property> <property 
+			name="applicationContextSchedulerContextKey" value="applicationContextKey" 
+			/> <property name="configLocation" value="classpath:org/buzheng/study/quartz/quartz.properties" 
+			/ -->
+		<property name="triggers">
+			<list>
+				<ref bean="trigger1" />
+				<ref bean="trigger2" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="jobDetail1"
+		class="frameworkx.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="simpleService" />
+		<property name="targetMethod" value="testMethod1" />
+		<property name="shouldRecover" value="true" />
+	</bean>
+	<bean id="trigger1" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="jobDetail1" />
+		<property name="cronExpression" value="0/5 * * * * ?" />
+	</bean>
+
+	<!--bean id="jobTask" class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass">
+			<value>org.buzheng.study.quartz.MyDetailQuartzJobBean
+			</value>
+		</property>
+		<property name="jobDataAsMap">
+			<map>
+				<entry key="quartzJob" value="quartzJob" />
+				<entry key="targetMethod" value="execute" />
+			</map>
+		</property>
+	</bean-->
+
+	<bean id="jobDetail2"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="simpleService" />
+		<property name="targetMethod" value="testMethod2" />
+		<!--property name="shouldRecover" value="true" /-->
+	</bean>
+	<bean id="trigger2" class="org.springframework.scheduling.quartz.SimpleTriggerBean">
+		<property name="jobDetail" ref="jobDetail2" />
+		<property name="startDelay" value="1" />
+		<property name="repeatCount" value="100" />
+		<property name="repeatInterval" value="1000" />
+	</bean>
+
+</beans>
