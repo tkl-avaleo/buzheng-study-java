@@ -12158,8 +12158,8 @@ HashSet基于HashMap
 <XPD:OBJ name="OwnedViews[0]" type="UMLClassView" guid="5Wz+LY4gu0ej8i6hM+/34gAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">160</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">164</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">100</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">168</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">101</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">82</XPD:ATTR>
 <XPD:REF name="Model">lGkyEAVJYU2sInMcfSuNpAAA</XPD:REF>
@@ -12189,8 +12189,8 @@ HashSet基于HashMap
 <XPD:OBJ name="OwnedViews[1]" type="UMLClassView" guid="wGlCGoOYkE2Ass89Hi8AjgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">324</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">176</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">264</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">180</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">80</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">56</XPD:ATTR>
 <XPD:REF name="Model">I1r4mWx0jUKWy1rJfYltYgAA</XPD:REF>
@@ -12220,8 +12220,8 @@ HashSet基于HashMap
 <XPD:OBJ name="OwnedViews[2]" type="UMLClassView" guid="yJ24bl+qY0GT4lxI6tuZ7wAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">472</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">164</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">412</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">168</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">101</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">56</XPD:ATTR>
 <XPD:REF name="Model">iI37iI2pjE23ncCNGnrAtwAA</XPD:REF>
@@ -12252,7 +12252,7 @@ HashSet基于HashMap
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">260,184;324,184</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">200,188;264,188</XPD:ATTR>
 <XPD:REF name="Model">Cily5kdjWkKc/NC27+lxdgAA</XPD:REF>
 <XPD:REF name="Head">wGlCGoOYkE2Ass89Hi8AjgAA</XPD:REF>
 <XPD:REF name="Tail">5Wz+LY4gu0ej8i6hM+/34gAA</XPD:REF>
@@ -12318,16 +12318,16 @@ HashSet基于HashMap
 </XPD:OBJ>
 <XPD:OBJ name="HeadQualifierCompartment" type="UMLQualifierCompartmentView" guid="9AKprbD+sEqjwZLNmPWcIwAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">-1000</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">-1000</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">-1060</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">-996</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">50</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">8</XPD:ATTR>
 <XPD:REF name="Model">lRtf1l/Fp02phE4PTfrxhQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="TailQualifierCompartment" type="UMLQualifierCompartmentView" guid="gCcIhGo0PUCFl6PA4Fd6nAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">-1000</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">-1000</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">-1060</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">-996</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">50</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">8</XPD:ATTR>
 <XPD:REF name="Model">WKwHKc9cPUebdjPgdOkTUgAA</XPD:REF>
@@ -12337,7 +12337,7 @@ HashSet基于HashMap
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">472,193;403,193</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">412,197;343,197</XPD:ATTR>
 <XPD:REF name="Model">Lod0HrXwYEmlIgyTwRJ5zwAA</XPD:REF>
 <XPD:REF name="Head">wGlCGoOYkE2Ass89Hi8AjgAA</XPD:REF>
 <XPD:REF name="Tail">yJ24bl+qY0GT4lxI6tuZ7wAA</XPD:REF>
@@ -12403,16 +12403,16 @@ HashSet基于HashMap
 </XPD:OBJ>
 <XPD:OBJ name="HeadQualifierCompartment" type="UMLQualifierCompartmentView" guid="p102o2YOVka8jGH9b/vurgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">-1000</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">-1000</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">-1060</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">-996</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">50</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">8</XPD:ATTR>
 <XPD:REF name="Model">x8cb5JO+UUqOpwVnhWRF4AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="TailQualifierCompartment" type="UMLQualifierCompartmentView" guid="oXBRR/LTcUWCYkJFu2grVAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">-1000</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">-1000</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">-1060</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">-996</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">50</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">8</XPD:ATTR>
 <XPD:REF name="Model">LLESnplDSU+SasmpqjyS1wAA</XPD:REF>
@@ -12421,8 +12421,8 @@ HashSet基于HashMap
 <XPD:OBJ name="OwnedViews[5]" type="UMLNoteView" guid="o1sAcJd+pUWIMPrw/mO93AAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">136</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">340</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">76</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">344</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">199</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">53</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">createMemento用来创建备忘录
@@ -12433,15 +12433,15 @@ setMemento用来在需要的时候恢复
 <XPD:OBJ name="OwnedViews[6]" type="UMLNoteLinkView" guid="45iWzLfOJEOZGcpAX/CYsgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">216,245;231,340</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">156,249;171,344</XPD:ATTR>
 <XPD:REF name="Head">o1sAcJd+pUWIMPrw/mO93AAA</XPD:REF>
 <XPD:REF name="Tail">5Wz+LY4gu0ej8i6hM+/34gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedViews[7]" type="UMLNoteView" guid="pmcwwGWbVEOH09wnjlSDjQAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">464</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">356</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">404</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">360</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">104</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">30</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">负责管理备忘录
@@ -12450,15 +12450,15 @@ setMemento用来在需要的时候恢复
 <XPD:OBJ name="OwnedViews[8]" type="UMLNoteLinkView" guid="u/zC8qYvGUaE6ALJbAVajAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">521,219;516,356</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">461,223;456,360</XPD:ATTR>
 <XPD:REF name="Head">pmcwwGWbVEOH09wnjlSDjQAA</XPD:REF>
 <XPD:REF name="Tail">yJ24bl+qY0GT4lxI6tuZ7wAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedViews[9]" type="UMLNoteView" guid="MWXfkuv63E2qnp2iNUtR8wAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">340</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">92</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">280</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">96</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">92</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">30</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">保存Originator
@@ -12467,7 +12467,7 @@ setMemento用来在需要的时候恢复
 <XPD:OBJ name="OwnedViews[10]" type="UMLNoteLinkView" guid="XGbDPGQetEOGZSy54hDPVAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">369,176;382,121</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">309,180;322,125</XPD:ATTR>
 <XPD:REF name="Head">MWXfkuv63E2qnp2iNUtR8wAA</XPD:REF>
 <XPD:REF name="Tail">wGlCGoOYkE2Ass89Hi8AjgAA</XPD:REF>
 </XPD:OBJ>
