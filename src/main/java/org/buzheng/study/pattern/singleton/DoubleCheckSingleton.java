@@ -4,10 +4,15 @@ package org.buzheng.study.pattern.singleton;
  * 一个多线程环境下的Singleton模式的实现，采用了double-check来避免
  * 多次锁定对性能的消耗。
  * 
- * 此种实现的问题在于，JVM很有可能在对象未完全初始化完成就返回了，此时
- * 其他线程仍然会创建对象，所以并不能保证只产生一个实例。
+ * 这个实现在C/C++下完全没有问题，但由于java内存模型的问题（无序赋值），
+ * 会带来错误：JVM在在对象初始化开始后，就返回了，加入此时有其他线程
+ * 来请求，instance已经不为null，而初始化还未完成，如果使用，会带来一些
+ * 错误。
+ * 更详细可参考：http://www.ibm.com/developerworks/cn/java/j-dcl.html
  * 
- * 多线程下最靠谱的还是 Singleton 和 InnerClassSingleton.
+ * 所以double check locking 是实现Singleton模式时应该避免的。
+ * 
+ * 多线程下最靠谱的实现还是 饿汉式、内部静态类、枚举类.
  * 
  */
 public class DoubleCheckSingleton {
