@@ -9,7 +9,7 @@
 						http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
 						http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
 
-	<bean id="wirelessDataSources" class="org.apache.commons.dbcp.BasicDataSource"
+	<!--bean id="wirelessDataSources" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
 		<property name="driverClassName" value="${jdbc.driver.class}"></property>
 		<property name="url" value="${jdbc.db.url}"></property>
@@ -19,7 +19,7 @@
 		<property name="maxActive" value="${jdbc.db.pool.max.active}" />
 		<property name="maxWait" value="${jdbc.db.pool.max.wait}" />
 		<property name="poolPreparedStatements" value="true" />
-	</bean> 
+	</bean--> 
 	
 	<!--bean id="dataSource" class="com.jolbox.bonecp.BoneCPDataSource"	destroy-method="close"-->
 		<!-- 数据库驱动 -->

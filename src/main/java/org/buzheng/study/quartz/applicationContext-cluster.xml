@@ -23,8 +23,6 @@
 		</property>
 	</bean>
 
-
-	<import resource="applicationContext-*.xml" />
-
+	<import resource="applicationContext-cluster-*.xml" />
 
 </beans>
