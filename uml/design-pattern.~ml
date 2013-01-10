@@ -24,8 +24,8 @@
 <XPD:OBJ name="OwnedViews[0]" type="UMLClassView" guid="NjaoCeqY9k2XgOspRrGbJwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">200</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">76</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">368</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">132</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">135</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">82</XPD:ATTR>
 <XPD:REF name="Model">P2muXNSGtUuAYSFyHTo34wAA</XPD:REF>
@@ -56,7 +56,7 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">267,76;267,56;364,56;364,116;334,116</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">435,132;435,112;532,112;532,172;502,172</XPD:ATTR>
 <XPD:REF name="Model">2EDcgbhxOkCsWNr+HJxoGQAA</XPD:REF>
 <XPD:REF name="Head">NjaoCeqY9k2XgOspRrGbJwAA</XPD:REF>
 <XPD:REF name="Tail">NjaoCeqY9k2XgOspRrGbJwAA</XPD:REF>
@@ -83,7 +83,7 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">267,76;267,56;364,56;364,116;334,116</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">435,132;435,112;532,112;532,172;502,172</XPD:ATTR>
 <XPD:REF name="Model">FjLuPRxSl0aWSfJ8Kf67agAA</XPD:REF>
 <XPD:REF name="Head">NjaoCeqY9k2XgOspRrGbJwAA</XPD:REF>
 <XPD:REF name="Tail">NjaoCeqY9k2XgOspRrGbJwAA</XPD:REF>
@@ -109,8 +109,8 @@
 <XPD:OBJ name="OwnedViews[3]" type="UMLNoteView" guid="2xkymEGT2kCQFpNeGR9IdAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">180</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">224</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">132</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">136</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">187</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">77</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">Singleton 通过将构造器私有化，
@@ -122,7 +122,7 @@
 <XPD:OBJ name="OwnedViews[4]" type="UMLNoteLinkView" guid="HsoIBeIlaEqx1bZt0JrucQAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">271,224;269,157</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">318,173;368,173</XPD:ATTR>
 <XPD:REF name="Head">NjaoCeqY9k2XgOspRrGbJwAA</XPD:REF>
 <XPD:REF name="Tail">2xkymEGT2kCQFpNeGR9IdAAA</XPD:REF>
 </XPD:OBJ>
@@ -12547,8 +12547,8 @@ setMemento用来在需要的时候恢复
 <XPD:REF name="Participant">lGkyEAVJYU2sInMcfSuNpAAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">WKh49qyfF0CJrF2US4TYCQAA</XPD:REF>
-<XPD:REF name="Views[1]">rygl+1Jlt0qPFAB2NitgPwAA</XPD:REF>
-<XPD:REF name="Views[2]">mFa0xE5/tU2frxMhWcbqngAA</XPD:REF>
+<XPD:REF name="Views[1]">mFa0xE5/tU2frxMhWcbqngAA</XPD:REF>
+<XPD:REF name="Views[2]">rygl+1Jlt0qPFAB2NitgPwAA</XPD:REF>
 <XPD:REF name="Views[3]">gCcIhGo0PUCFl6PA4Fd6nAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Connections[1]" type="UMLAssociationEnd" guid="lRtf1l/Fp02phE4PTfrxhQAA">
@@ -12556,8 +12556,8 @@ setMemento用来在需要的时候恢复
 <XPD:REF name="Participant">I1r4mWx0jUKWy1rJfYltYgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">EWzdVIhWA0WBiDasgz9x4QAA</XPD:REF>
-<XPD:REF name="Views[1]">mzdhtZ0cBUqy8jH6BR1TqQAA</XPD:REF>
-<XPD:REF name="Views[2]">oU6/vQZmIEG1GhoCs/983wAA</XPD:REF>
+<XPD:REF name="Views[1]">oU6/vQZmIEG1GhoCs/983wAA</XPD:REF>
+<XPD:REF name="Views[2]">mzdhtZ0cBUqy8jH6BR1TqQAA</XPD:REF>
 <XPD:REF name="Views[3]">9AKprbD+sEqjwZLNmPWcIwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -12576,8 +12576,8 @@ setMemento用来在需要的时候恢复
 <XPD:REF name="Participant">iI37iI2pjE23ncCNGnrAtwAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">WuV8StnU6UKTDuzUwUNtewAA</XPD:REF>
-<XPD:REF name="Views[1]">uV04cZcyEEaj5W6bCmtMuAAA</XPD:REF>
-<XPD:REF name="Views[2]">gPBhESEXlU6uzX+M34YPxgAA</XPD:REF>
+<XPD:REF name="Views[1]">gPBhESEXlU6uzX+M34YPxgAA</XPD:REF>
+<XPD:REF name="Views[2]">uV04cZcyEEaj5W6bCmtMuAAA</XPD:REF>
 <XPD:REF name="Views[3]">oXBRR/LTcUWCYkJFu2grVAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Connections[1]" type="UMLAssociationEnd" guid="x8cb5JO+UUqOpwVnhWRF4AAA">
@@ -12585,8 +12585,8 @@ setMemento用来在需要的时候恢复
 <XPD:REF name="Participant">I1r4mWx0jUKWy1rJfYltYgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">WFjpplb7ck+Bwjo2esWVvwAA</XPD:REF>
-<XPD:REF name="Views[1]">yxvMD7QR5UqVJ28s50XKzQAA</XPD:REF>
-<XPD:REF name="Views[2]">MG70m0KJ40KBnOELcKSbogAA</XPD:REF>
+<XPD:REF name="Views[1]">MG70m0KJ40KBnOELcKSbogAA</XPD:REF>
+<XPD:REF name="Views[2]">yxvMD7QR5UqVJ28s50XKzQAA</XPD:REF>
 <XPD:REF name="Views[3]">p102o2YOVka8jGH9b/vurgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
