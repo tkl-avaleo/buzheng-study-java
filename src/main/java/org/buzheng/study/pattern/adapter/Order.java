@@ -13,7 +13,5 @@ public class Order {
 
 	public void setOrderId(String orderId) {
 		this.orderId = orderId;
-	}
-	
-	
+	}	
 }
