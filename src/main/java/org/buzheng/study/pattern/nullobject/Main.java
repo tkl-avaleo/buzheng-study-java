@@ -6,6 +6,7 @@ package org.buzheng.study.pattern.nullobject;
  */
 public class Main {
 
+	// 这里采用没有默认操作的算法工厂
 	public static String handleCharacter(char ch) {
 		CharacterHandler handler = HandlerFactory.getHandler(ch);
 		if (handler != null) {
@@ -15,6 +16,7 @@ public class Main {
 		return String.valueOf(ch);
 	}
 
+	// 这里采用有默认操作的算法工厂
 	public static String handleCharacter2(char ch) {
 		CharacterHandler handler = HandlerFactoryWithNullHandler.getHandler(ch);
 		return handler.handle(ch);
@@ -22,6 +24,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		String str = "1a@b#2c$d";
+		
+		for (char ch : str.toCharArray()) {
+			System.out.println(handleCharacter(ch));
+		}
 
 		for (char ch : str.toCharArray()) {
 			System.out.println(handleCharacter2(ch));
