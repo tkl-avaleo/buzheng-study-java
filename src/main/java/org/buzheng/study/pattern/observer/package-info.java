@@ -14,5 +14,10 @@
  * 如果Observer太多，则通知需要耗费的时间可能太长；
  * 如果Observer间有依赖关系，则可能产生错乱；
  *
+ * JDK：
+ * 
+ * {@link java.util.Observer} 
+ * {@link java.util.Observable}
+ * 
  */
 package org.buzheng.study.pattern.observer;
