@@ -15,7 +15,5 @@ public class Order {
 	}
 	public void setAmount(Double amount) {
 		this.amount = amount;
-	}
-	
-	
+	}	
 }
