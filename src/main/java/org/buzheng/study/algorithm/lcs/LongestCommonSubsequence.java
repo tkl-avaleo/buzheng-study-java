@@ -68,9 +68,10 @@ public class LongestCommonSubsequence {
 		
 		output(tmp);
 		
-		int i = 0, j = 0;
+		int i = 0, j = 0, len1 = s1.length(), len2 = s2.length();
 		StringBuilder sb = new StringBuilder();
-		while (i < s1.length() && j < s2.length()) {
+		
+		while (i < len1 && j < len2) {
 			if (s1.charAt(i) == s2.charAt(j)) {
 				sb.append(s1.charAt(i));
 				i++;
