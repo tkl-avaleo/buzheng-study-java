@@ -1,10 +1,10 @@
 package org.buzheng.study.pattern.proxy;
 
-public class HelloStaticProxy implements IHello {
+public class HelloLoggingProxy implements IHello {
 	
 	private IHello hello;
 
-	public HelloStaticProxy(IHello hello) {
+	public HelloLoggingProxy(IHello hello) {
 		super();
 		this.hello = hello;
 	}
@@ -16,7 +16,7 @@ public class HelloStaticProxy implements IHello {
 	}
 	
 	public static void main(String[] as) {
-		IHello helloProxy = new HelloStaticProxy(new HelloSpeaker());
+		IHello helloProxy = new HelloLoggingProxy(new HelloSpeaker());
 		helloProxy.sayHello("buzheng");
 	}
 }
