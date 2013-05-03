@@ -35,8 +35,8 @@ public class LongestCommonSubstring {
 		int len2 = s2.length();
 		
 		int[][] match = new int[len1][len2];
-		int maxLength = 0;
-		int lastIndex = 0;
+		int maxLength = 0; // 子字符串的最大长度
+		int lastIndex = 0; // 最大子字符串中最后一个字符的索引
 		
 		for (int i = 0; i < len1; i++) {
 			for (int j = 0; j < len2; j++) {
@@ -58,35 +58,31 @@ public class LongestCommonSubstring {
 			}
 		}
 		
-		
+		// 这里打印出构造出的矩阵
 		for (int i = 0; i < len1; i++) {
 			for (int j = 0; j < len2; j++) {
 				System.out.print(match[i][j] + " ");
 			}
 			System.out.println();
 		}
-		
-		System.out.println(lastIndex + " " + maxLength);
-		
+				
 		if (maxLength == 0) {
 			return "";
 		}
 		
 		StringBuilder sb = new StringBuilder();
-		
+		// 根据最大索引的位置，回朔出最长子字符串
 		for (int i = lastIndex-maxLength+1; i <= lastIndex; i++) {
 			sb.append(s1.charAt(i));
 		}
 		
 		return sb.toString();
 	}
-	
-	
+		
 	public static void main(String[] args) {
 		String s1 = "xcdef";
 		String s2 = "abcdefg";
 		
 		System.out.println(new LongestCommonSubstring().search(s1, s2));
 	}
-
 }
