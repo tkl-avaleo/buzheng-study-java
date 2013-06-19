@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Arrays;
 
-public class HelloDynamicProxy implements InvocationHandler {
+public class LoggingDynamicProxy implements InvocationHandler {
 	
 	private Object delegate;
 	
@@ -33,7 +33,10 @@ public class HelloDynamicProxy implements InvocationHandler {
 	}
 
 	public static void main(String[] args) {
-		IHello helloProxy = (IHello) new HelloDynamicProxy().bind(new HelloSpeaker());
+		IHello helloProxy = (IHello) new LoggingDynamicProxy().bind(new HelloSpeaker());
 		helloProxy.sayHello("buzheng");
+		
+		IBye byeProxy = (IBye) new LoggingDynamicProxy().bind(new ByeSpeaker());
+		byeProxy.sayBye("buzheng");
 	}
 }
